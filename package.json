@@ -1,0 +1,17 @@
+{
+  "name": "emailnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Guirra",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-email": "^0.0.1",
+    "nodemailer": "^6.6.3"
+  }
+}
