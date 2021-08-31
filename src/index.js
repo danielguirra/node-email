@@ -4,15 +4,15 @@ let password = process.env.pass
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'daniel.guirra777@gmail.com', //Change this to your gmail email
+        user: 'your@gmail.com', //Change this to your gmail email
         pass: password
     }
 });
 
 let send = () => {
     var mailOptions = {
-        from: 'daniel.guirra777@gmail.com', //Change this to your gmail email
-        to: 'daniel.guirra777@gmail.com',
+        from: 'your@gmail.com', //Change this to your gmail email
+        to: 'your@gmail.com',
         subject: 'subject',
         text: 'teste'
     };
